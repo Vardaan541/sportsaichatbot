@@ -1,0 +1,20 @@
+.app {
+  width: 100%;
+  max-width: 1200px;
+  height: 90vh;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .app {
+    height: 95vh;
+    border-radius: 15px;
+    margin: 10px;
+  }
+}

@@ -19,11 +19,11 @@ const ChatInterface = ({ messages, onSendMessage, isLoading, messagesEndRef }) =
   }
 
   const quickQuestions = [
-    "Who won the last World Cup?",
-    "Tell me about LeBron James",
-    "What's the history of the Olympics?",
-    "Explain football tactics",
-    "Who are the best tennis players?"
+    "🏆 Last World Cup winner?",
+    "🏀 LeBron James stats",
+    "🏅 Olympics history",
+    "⚽ Football tactics",
+    "🎾 Best tennis players"
   ]
 
   const handleQuickQuestion = (question) => {

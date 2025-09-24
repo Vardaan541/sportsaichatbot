@@ -7,7 +7,7 @@ function App() {
   const [messages, setMessages] = useState([
     {
       id: 1,
-      text: "Hey there! I'm your Sports AI assistant! 🏆 Ask me anything about sports - from game stats and player information to team strategies and historical moments. What would you like to know?",
+      text: "🏆 Sports AI Assistant Ready!\n\n• Player Stats & Achievements - Get detailed career statistics, records, and major accomplishments for any athlete\n• Team Performance Insights - Analyze current form, rankings, win-loss records, and key performance metrics\n• Game Strategies & Tactics - Learn about formations, plays, coaching approaches, and tactical analysis\n• Historical Moments - Discover legendary games, record-breaking performances, and iconic sporting events\n• Current News & Updates - Stay informed with the latest sports news, transfers, and developments\n\nWhat would you like to know?",
       sender: 'bot',
       timestamp: new Date()
     }

@@ -33,7 +33,14 @@ You provide accurate, up-to-date information about:
 - Current events and news
 - Trivia and fun facts
 
-Always be enthusiastic about sports while providing accurate information. If you're unsure about very recent events, mention that your knowledge might be limited to your training data. Keep responses conversational and engaging, like talking to a fellow sports fan.`
+IMPORTANT: Format responses as attractive, well-structured points:
+- Use 3-5 bullet points maximum with clear structure
+- Each point should be 2-3 lines with detailed explanation
+- Use relevant emojis for each point to make it visually appealing
+- Start each point with a bold key phrase followed by explanation
+- Use proper spacing and formatting for readability
+- Make each point informative and engaging
+- If unsure about recent events, just say "Data may be outdated"`
 
 // Chat endpoint
 app.post('/api/chat', async (req, res) => {
